@@ -1,0 +1,37 @@
+.Tasks {
+	border-spacing: 0;
+	width: 90%
+}
+
+.Tasks-caption {
+	text-align: left;
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+
+.Tasks-head {
+	margin-bottom: 5px;
+}
+
+.Tasks-item {
+	border: 1px solid grey;
+	padding: 10px;
+	width: 42.5%;
+}
+
+.Tasks-item_checked,
+.Tasks-item_edit,
+.Tasks-item_delete {
+	width: 5%;
+}
+
+.Tasks-edit,
+.Tasks-delete {
+	width: 20px;
+	padding: 10px;
+}
+
+.Tasks-edit,
+.Tasks-delete:hover {
+	cursor: pointer;
+}

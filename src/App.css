@@ -1,0 +1,13 @@
+.App {
+  width: 100%;
+  text-align: center;
+}
+
+.App-tasks {
+  display: flex;
+  justify-content: center;
+}
+
+.App-addtask_edit {
+  padding-top: 50px;
+}
